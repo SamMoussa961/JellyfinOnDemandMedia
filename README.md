@@ -41,10 +41,10 @@ This project serves two purposes:
 
 ### Software 
 
-- Docker
-- Docker Compose
-- Python 3.x
-- Jellyfin (Docker container)
+- [Docker](https://docs.docker.com)
+- [Docker Compose](https://wiki.archlinux.org/title/Docker#:~:text=deprecated%20legacy%20builder.-,Docker%20Compose,-Docker%20Compose%20is)
+- [Python](https://wiki.archlinux.org/title/Python) 3.x
+- [Jellyfin](https://jellyfin.org/docs/general/installation/container) (Docker container)
 
 ### Python Dependencies
 
@@ -64,9 +64,9 @@ The application is configured via environment variables:
 | :---                      |   :----                                       |
 | STORAGE_SERVER_MAC        | MAC address of server B                       |
 | BROADCAST_ADDRESS         | Network broadcast address                     |
-| JELLYFIN_API_URL          | Jellyfin server API endpoint                  |
+| JELLYFIN_API_URL          | Jellyfin server Jellyfin server [API endpoint](https://api.jellyfin.org/) |
 | JELLYFIN_API_KEY          | Jellyfin API key                              |
-| CHECK_INTERVAL            | Polling interval (secons)                     |
+| CHECK_INTERVAL            | Polling interval (seconds)                    |
 | PACKET_COOLDOWN_TIME      | Minimum time between WOL packets              |
 | COOLDOWN_TIME             | Minimum inactivity time to poweroff server B  |
 
