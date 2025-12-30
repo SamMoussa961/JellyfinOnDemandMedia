@@ -1,4 +1,4 @@
-# OnDemandActivity
+# JellyfinOnDemandMedia
 
 ## Summary
 
