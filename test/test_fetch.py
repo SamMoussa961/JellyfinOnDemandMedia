@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, Mock
-from fetch import api_response
+from src.fetch import api_response
 
 #
 class FetchTest(unittest.TestCase):
